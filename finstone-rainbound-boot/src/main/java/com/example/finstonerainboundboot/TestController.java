@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @RequestMapping("/hello")
+    @RequestMapping("")
     public String helloWord() {
-        return "Hello word!";
+        return "Hello word boot!";
     }
 }
